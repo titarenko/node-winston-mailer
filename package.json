@@ -1,6 +1,6 @@
 {
   "name": "winston-mailer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Winston transport based on mailer. It buffers errors, and packs them in one email if necessary.",
   "main": "index.js",
   "scripts": {

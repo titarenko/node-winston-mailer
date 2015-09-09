@@ -1,6 +1,6 @@
 {
   "name": "winston-mailer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Winston transport based on mailer. It buffers errors, and packs them in one email if necessary.",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,7 @@
   "author": "Gustavo Machado",
   "license": "BSD",
   "dependencies": {
-    "nodemailer": "^1.4.0"
+    "nodemailer": "^1.4.0",
+    "nodemailer-smtp-transport": "^1.0.3"
   }
 }

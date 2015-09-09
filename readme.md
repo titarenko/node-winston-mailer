@@ -25,7 +25,7 @@ The Mail transport uses [nodemailer][1] behind the scenes. Options are the follo
 
 * __to:__ The address(es) you want to send to. *[required]*
 * __from:__ The 'from' address (default: `winston@hostname`).
-* __transport:__ Options for `nodemailer.createTransport` function (service and authentication option).
+* __smtp:__ Options for [nodemailer][1] [smtp][2] transport.
 * __level:__ Level of messages that this transport should log.
 * __silent:__ Boolean flag indicating whether to suppress output.
 * __maxBufferItems__ Max errors that will be buffered (default 100).
@@ -33,3 +33,4 @@ The Mail transport uses [nodemailer][1] behind the scenes. Options are the follo
 
 [0]: https://github.com/flatiron/winston
 [1]: https://github.com/andris9/Nodemailer
+[2]: https://github.com/andris9/nodemailer-smtp-transport
